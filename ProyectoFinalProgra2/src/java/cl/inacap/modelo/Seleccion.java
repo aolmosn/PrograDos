@@ -14,4 +14,37 @@ public class Seleccion {
     private String pais;
     private String nomFederacion;
     private String nomMiembro;
+
+    public String getAcronimo() {
+        return acronimo;
+    }
+
+    public void setAcronimo(String acronimo) {
+        this.acronimo = acronimo;
+    }
+
+    public String getPais() {
+        return pais;
+    }
+
+    public void setPais(String pais) {
+        this.pais = pais;
+    }
+
+    public String getNomFederacion() {
+        return nomFederacion;
+    }
+
+    public void setNomFederacion(String nomFederacion) {
+        this.nomFederacion = nomFederacion;
+    }
+
+    public String getNomMiembro() {
+        return nomMiembro;
+    }
+
+    public void setNomMiembro(String nomMiembro) {
+        this.nomMiembro = nomMiembro;
+    }
+    
 }
