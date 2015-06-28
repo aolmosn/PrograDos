@@ -9,60 +9,60 @@ package cl.inacap.modelo;
  *
  * @author Cubil
  */
-public class Solicitud {
-    private int rut;
-    private String nombre;
-    private String correo;
-    private int idObjeto;
-    private String estado;
-    private String nomMiembro;
+public class Solicitud extends Objeto{
+    private int rutSolicitud;
+    private String nombreSolicitud;
+    private String correoSolicitud;
+    private int idObjetoSolicitud;
+    private String estadoSolicitud;
+    private String nomMiembroSolicitud;
 
-    public int getRut() {
-        return rut;
+    public int getRutSolicitud() {
+        return rutSolicitud;
     }
 
-    public void setRut(int rut) {
-        this.rut = rut;
+    public void setRutSolicitud(int rutSolicitud) {
+        this.rutSolicitud = rutSolicitud;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getNombreSolicitud() {
+        return nombreSolicitud;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setNombreSolicitud(String nombreSolicitud) {
+        this.nombreSolicitud = nombreSolicitud;
     }
 
-    public String getCorreo() {
-        return correo;
+    public String getCorreoSolicitud() {
+        return correoSolicitud;
     }
 
-    public void setCorreo(String correo) {
-        this.correo = correo;
+    public void setCorreoSolicitud(String correoSolicitud) {
+        this.correoSolicitud = correoSolicitud;
     }
 
-    public int getIdObjeto() {
-        return idObjeto;
+    public int getIdObjetoSolicitud() {
+        return idObjetoSolicitud;
     }
 
-    public void setIdObjeto(int idObjeto) {
-        this.idObjeto = idObjeto;
+    public void setIdObjetoSolicitud(int idObjetoSolicitud) {
+        this.idObjetoSolicitud = idObjetoSolicitud;
     }
 
-    public String getEstado() {
-        return estado;
+    public String getEstadoSolicitud() {
+        return estadoSolicitud;
     }
 
-    public void setEstado(String estado) {
-        this.estado = estado;
+    public void setEstadoSolicitud(String estadoSolicitud) {
+        this.estadoSolicitud = estadoSolicitud;
     }
 
-    public String getNomMiembro() {
-        return nomMiembro;
+    public String getNomMiembroSolicitud() {
+        return nomMiembroSolicitud;
     }
 
-    public void setNomMiembro(String nomMiembro) {
-        this.nomMiembro = nomMiembro;
+    public void setNomMiembroSolicitud(String nomMiembroSolicitud) {
+        this.nomMiembroSolicitud = nomMiembroSolicitud;
     }
     
 }
