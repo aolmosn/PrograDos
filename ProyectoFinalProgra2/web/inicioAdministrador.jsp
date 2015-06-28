@@ -16,6 +16,37 @@
             <input type="submit" name="Cerrar Sesion" value="Cerra" />
         </form>
 
-        <h1>HolaAdministrador</h1>
+        <h1>HolaAdministrador</h1
+        
+        <form action="action">
+            <option>
+            <li><a href="Admministrador/IngresarSeleccion.jsp">Ingresar Seleccion</a></li>
+            <li><a href="Admministrador/IngresarSeleccion.jsp">Ingresar Objetos</a></li>
+            <li><a href="Admministrador/IngresarSeleccion.jsp">Solicitudes</a></li
+            </option>
+            <h2>Lista Solicitudes</h2>
+            <form action="action">
+                <input list="EstadoSolicitudes" />
+			<datalist id="EstadoSolicitudes">
+				<option value="Todas" />
+				<option value="Pendientes" />
+				<option value="Aprobadas" />
+				<option value="Rechazadas" />
+			</datalist>
+                <input type="submit" value="Filtrar" />
+            </form>
+            <h2>Lista Hinchas</h2>
+            <form action="action">
+                <input list="Pais" />
+			<datalist id="Pais">
+				<% //For each con todos los paises para su filtro%>
+                                <option value="Todas" />
+				<option value="Pendientes" />
+				<option value="Aprobadas" />
+				<option value="Rechazadas" />
+			</datalist>
+                <input type="submit" value="Filtrar" />
+            </form>
+        </form>
     </body>
 </html>
